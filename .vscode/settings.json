@@ -1,0 +1,19 @@
+{
+	// Accept suggestions with Enter and select the first suggestion by default
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.suggestSelection": "first",
+
+	// Disable inline (ghost) suggestions which can interfere with the suggestion widget
+	"editor.inlineSuggest.enabled": false,
+
+	// Keep suggestions enabled while typing
+	"editor.quickSuggestions": { "other": true, "comments": false, "strings": false },
+
+	// If you use the VSCodeVim extension it may intercept Enter; tell it not to handle <CR>
+	"vim.handleKeys": {
+		"<CR>": false
+	},
+	"files.associations": {
+		"iostream": "cpp"
+	}
+}

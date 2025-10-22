@@ -1,0 +1,29 @@
+// Passing objects as function arguments
+#include <iostream>
+using namespace std;
+class Complex {
+    private: 
+        int a, b;
+    public:
+        void setData(int v1, int v2){
+            a = v1;
+            b = v2;
+        }
+        void getData(){
+            cout << "The complex number is: " << a << " + " << b << " i." << endl;
+        }
+        void setDataBySum(Complex o1, Complex o2){
+            a = o1.a + o2.a;
+            b = o1.b + o2.b;
+        }
+};
+int main(){
+    Complex c1, c2, c3;
+    c1.setData(1,4);
+    c2.setData(2,3);
+    c3.setDataBySum(c1, c2);
+    c1.getData();
+    c2.getData();
+    c3.getData();
+    return 0;
+}
