@@ -1,5 +1,0 @@
-[{
-	"key": "enter",
-	"command": "acceptSelectedSuggestion",
-	"when": "suggestWidgetVisible && textInputFocus"
-}]
