@@ -1,0 +1,11 @@
+Types of Inheritance:
+Single Inheritance:
+	One base class and one derived class only
+Multiple Inheritance:
+	One derived class has more than one base class. (aik bache ke do papa)
+Heirarchical Inheritance:
+	More than one derived classes from one base class. (aik papa ke do bache)
+Multi-level Inheritance:
+	Derived class from one base class derives another class. (A-->B-->C)
+Hybrid Inheritance:
+	Combination of multiple and multi-level inheritance.
