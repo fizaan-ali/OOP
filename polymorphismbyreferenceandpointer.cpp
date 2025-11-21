@@ -1,4 +1,5 @@
 // 
+// 
 #include<iostream>
 using namespace std;
 class Base {
@@ -19,13 +20,14 @@ public:
         cout << "This is class B" << endl;
     }
 };
-void dm_polymorphism(Base& obj){
-    obj.show();
+void dm_polymorphism(Base* ptr){
+    ptr->show();
 }
 int main(){
-    A obj1;
-    B obj2;
-    dm_polymorphism(obj1);
-    dm_polymorphism(obj2);
+    Base* ptr;
+    ptr = new A;
+    dm_polymorphism(ptr);
+    ptr = new B;
+    dm_polymorphism(ptr);
     return 0;
 }
