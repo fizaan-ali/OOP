@@ -4,7 +4,7 @@ class Shape {
 public:
     float area(){
         return 0.0;
-    }
+    } 
 };
 class Rectangle : public Shape {
 public:

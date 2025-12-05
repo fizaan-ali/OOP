@@ -7,7 +7,7 @@ protected:
 public:
     virtual void get_data() = 0;
     virtual void show_data() = 0;
-};
+}; 
 class Medical : public Student {
 public:
     void get_data(){

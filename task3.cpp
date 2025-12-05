@@ -8,7 +8,7 @@ public:
     virtual ~Operation(){}
 };
 class Addition : public Operation {
-public:
+public: 
     Addition(float x, float y){
         num1 = x;
         num2 = y;
